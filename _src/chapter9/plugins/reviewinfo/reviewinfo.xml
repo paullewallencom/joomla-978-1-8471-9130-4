@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Review Information</name>
+	<author>Sumptuous Software</author>
+	<creationDate>January 2007</creationDate>
+	<copyright>(C) 2007</copyright>
+	<license>Commercial</license>
+	<authorEmail>support@packtpub.com</authorEmail>
+	<authorUrl>www.packtpub.com</authorUrl>
+	<version>1.0</version>
+	<description>Turns {reviewinfo Name of your restaurant} into a table with the review's essential details.</description>
+	<files>
+		<filename plugin="reviewinfo">reviewinfo.php</filename>
+	</files>
+	<params>
+		<param name="address" type="radio" default="1" label="Display Address?" description="Toggles the display of the address in summaries.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="price_range" type="radio" default="1" label="Display Price Range?" description="Toggles the display of the price range in summaries.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="reservations" type="radio" default="1" label="Display Reservations?" description="Toggles the display of reservation policy in summaries.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="smoking" type="radio" default="1" label="Display Smoking?" description="Toggles the display of smoking policy in summaries.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</install>

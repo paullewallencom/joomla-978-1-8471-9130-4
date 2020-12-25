@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>Reviews</name>
+	<author>Sumptuous Software</author>
+	<creationDate>January 2007</creationDate>
+	<copyright>(C) 2007</copyright>
+	<authorEmail>support@packtpub.com</authorEmail>
+	<authorUrl>www.packtpub.com</authorUrl>
+	<version>1.5.0</version>
+	<license>Commercial</license>
+	<description>A component for writing and managing restaurant reviews.</description>
+
+	<installfile>install.reviews.php</installfile>
+	
+	<uninstallfile>uninstall.reviews.php</uninstallfile>
+	
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+		
+	<files>
+		<filename>controller.php</filename>
+		<filename>reviews.html.php</filename>
+		<filename>reviews.php</filename>
+		<filename>router.php</filename>
+		<filename>models/opinion.php</filename>
+		<filename>models/all.php</filename>
+		<filename>views/all/metadata.xml</filename>
+		<filename>views/all/view.html.php</filename>
+		<filename>views/all/tmpl/default.php</filename>
+		<filename>views/opinion/metadata.xml</filename>
+		<filename>views/opinion/view.html.php</filename>
+		<filename>views/opinion/tmpl/default.php</filename>
+		<filename>views/opinion/tmpl/default_form.php</filename>
+	</files>
+	
+	<administration>
+		<menu>Restaurant Reviews</menu>
+		<submenu>
+			<menu link="option=com_reviews">Manage Reviews</menu>
+			<menu task="comments">Manage Comments</menu>
+		</submenu>
+
+		<files folder="admin">
+			<filename>install.mysql.sql</filename>
+			<filename>uninstall.mysql.sql</filename>
+			<filename>admin.reviews.html.php</filename>
+			<filename>admin.reviews.php</filename>
+			<filename>controller.php</filename>
+			
+			<filename>tables/comment.php</filename>
+			<filename>tables/review.php</filename>
+			<filename>toolbar.reviews.html.php</filename>
+			<filename>toolbar.reviews.php</filename>
+		</files>
+	</administration>
+	
+</install>

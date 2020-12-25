@@ -1,0 +1,1 @@
+INSERT INTO jos_modules (title, ordering, position, published, module, showtitle, params) VALUES ('Restaurant Reviews', 1, 'left', 1, 'mod_reviews', 1, 'style=default\nitems=3\nrandom=1');

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Content - Restaurant Review Links</name>
+	<author>Sumptuous Software</author>
+	<creationDate>January 2007</creationDate>
+	<copyright>(C) 2007</copyright>
+	<license>Commercial</license>
+	<authorEmail>support@packtpub.com</authorEmail>
+	<authorUrl>www.packtpub.com</authorUrl>
+	<version>1.0</version>
+	<description>Searches for titles of restaurants in articles and turns them into review links.</description>
+	<params>
+		<param name="linkcode" type="textarea" default="" rows="5" cols="40" label="Custom Link Code" description="By using {link} and {title}, you can generate custom HTML output that includes the URL and review title respectively." />
+	</params>
+</install>

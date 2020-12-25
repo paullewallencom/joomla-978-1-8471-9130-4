@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - Restaurant Reviews</name>
+	<author>Sumptuous Software</author>
+	<creationDate>January 2007</creationDate>
+	<copyright>(C) 2007</copyright>
+	<license>Commercial</license>
+	<authorEmail>support@packtpub.com</authorEmail>
+	<authorUrl>www.packtpub.com</authorUrl>
+	<version>1.0</version>
+	<description>Allows Searching of Restaurant Reviews</description>
+	<params>
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>	
+	</params>
+</install>

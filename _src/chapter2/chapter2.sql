@@ -1,0 +1,2 @@
+INSERT INTO jos_components (name, link, admin_menu_link, admin_menu_alt, `option`, admin_menu_img, params) 
+VALUES ('Restaurant Reviews', 'option=com_reviews', 'option=com_reviews', 'Manage Reviews', 'com_reviews', 'js/ThemeOffice/component.png', '');

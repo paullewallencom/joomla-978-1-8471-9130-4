@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>Restaurant Reviews</name>
+	<author>Sumptuous Software</author>
+	<creationDate>January 2007</creationDate>
+	<copyright>(C) 2007</copyright>
+	<license>Commercial</license>
+	<authorEmail>support@packtpub.com</authorEmail>
+	<authorUrl>www.packtpub.com</authorUrl>
+	<version>1.0</version>
+	<description>A module for promoting restaurant reviews.</description>
+	<files>
+		<filename module="mod_reviews">mod_reviews.php</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/_review.php</filename>
+		<filename>tmpl/bulleted.php</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="random" type="radio" default="0" label="Randomize" description="Show random reviews">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="items" type="text" default="1" label="Display #" description="Number of reviews to display" />
+		<param name="style" type="list" default="default" label="Display style" description="The style to use for displaying the reviews.">
+			<option value="default">Flat</option>
+			<option value="bulleted">Bulleted</option>
+		</param>
+	</params>
+</install>

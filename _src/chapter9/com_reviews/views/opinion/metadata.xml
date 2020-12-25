@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<view title="Single Review">
+		<message>
+			<![CDATA[Shows individual reviews.]]>
+		</message>
+	</view>
+	<params>
+		<param name="id" type="text" size="3" default="" label="Review ID" description="Enter the ID of the review to be displayed." />
+		<param name="currency_symbol" type="text" size="3" default="$" label="Currency Symbol" description="Enter the currency symbol to be used for average dinner prices." />
+	</params>
+</metadata>
